@@ -22,8 +22,9 @@ public class CardTrick {
         }
 
         Card luckyCard = new Card();
-        luckyCard.setValue(2);
-        luckyCard.setSuit("Spades");
+        luckyCard.setValue(7);
+        luckyCard.setSuit("Hearts");
+
 
         boolean found = false;
         for (Card c : hand) {
